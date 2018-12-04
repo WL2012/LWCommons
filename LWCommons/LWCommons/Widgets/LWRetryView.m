@@ -1,0 +1,142 @@
+//
+//  LWRetryView.m
+//  EasyBaking
+//
+//  Created by wangliang on 12/25/14.
+//  Copyright (c) 2014 iEasyNote. All rights reserved.
+//
+
+#import "LWRetryView.h"
+#import "Constants.h"
+
+@implementation LWRetryView
+{
+    UIImageView *_imageView, *_coverView;
+    UILabel *_retryLabel;
+    UIActivityIndicatorView *_loadingView;
+}
+
+- (void) removeFromSuperview{
+    self.onRetry = nil;
+    [super removeFromSuperview];
+}
+
+- (void) dealloc{
+#if !__has_feature(objc_arc)
+    [super dealloc];
+#endif
+}
+
+- (id) init{
+    self = [super init];
+    if(self){
+        [self initUI];
+    }
+    return self;
+}
+
+- (id) initWithCoder:(NSCoder *)aDecoder {
+    self = [super initWithCoder:aDecoder];
+    if (self) {
+        [self initUI];
+    }
+    return self;
+}
+
+- (id)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        // Initialization code
+        [self initUI];
+    }
+    return self;
+}
+
+- (id) initWithFrame:(CGRect)frame andRadius:(CGFloat)radius{
+    self = [super initWithFrame:frame andRadius:radius];
+    if(self){
+        [self initUI];
+    }
+    return self;
+}
+
+- (void) initUI{
+    _imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"default-icon"]];
+    _imageView.backgroundColor = kClearColor;
+    [self addSubview:_imageView];
+    _retryLabel = [[UILabel alloc] init];
+    _retryLabel.textAlignment = NSTextAlignmentCenter;
+    _retryLabel.font = kAppFont(12);
+    _retryLabel.textColor = kRGB(55, 55, 55);
+    _retryLabel.numberOfLines = 3;
+    _retryLabel.text = @"点击重新加载";
+    [self addSubview:_retryLabel];
+    
+    _coverView = [[UIImageView alloc] init];
+    //[_coverView setImage:[UIImage imageNamed:@""]];
+    [self addSubview:_coverView];
+    _coverView.hidden = YES;
+    
+    [self layout:self.radius];
+    
+    _loadingView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];
+    [self addSubview:_loadingView];
+    
+    UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTapped:)];
+    [self addGestureRecognizer:tapGesture];
+}
+
+- (void) handleTapped:(UITapGestureRecognizer*) recognizer{
+    if(recognizer.state==UIGestureRecognizerStateEnded){
+        if(self.onRetry){
+            self.onRetry();
+        }
+    }
+}
+
+- (void) setRadius:(CGFloat)radius{
+    [super setRadius:radius];
+    [self layout:radius];
+}
+
+- (void) layout:(CGFloat) radius{
+    _imageView.frame = CGRectMake(radius, radius, self.frame.size.width-radius*2, self.frame.size.width-radius*2);
+    _coverView.frame = _imageView.frame;
+    _retryLabel.frame = CGRectMake(_imageView.frame.origin.x, _imageView.frame.origin.y+_imageView.frame.size.height, self.frame.size.width-radius*2, self.frame.size.height-_imageView.frame.origin.y-_imageView.frame.size.height);
+    _loadingView.center = _imageView.center;
+}
+
+- (void) setFrame:(CGRect)frame{
+    [super setFrame:frame];
+    [self layout:_radius];
+}
+
+- (void) setIconBGColor:(UIColor *)iconBGColor{
+    _iconBGColor = iconBGColor;
+    _imageView.backgroundColor = iconBGColor;
+}
+
+- (void) setTitleBGColor:(UIColor *)titleBGColor{
+    _titleBGColor = titleBGColor;
+    _retryLabel.backgroundColor = titleBGColor;
+}
+
+- (UIColor*) getIcnBGColor{
+    return _iconBGColor;
+}
+
+- (UIColor*) getTitleBGColor{
+    return _titleBGColor;
+}
+
+- (void) setRetryMessage:(NSString *)retryMessage{
+    _retryMessage = retryMessage;
+    _retryLabel.text = retryMessage;
+}
+
+- (NSString*) retryMessage{
+    return _retryMessage;
+}
+
+@end

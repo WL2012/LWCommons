@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		EF1992E621B64A6C000F7AD1 /* LWCommonsSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EF1992E921B64A6C000F7AD1 /* Build configuration list for PBXAggregateTarget "LWCommonsSDK" */;
+			buildPhases = (
+				EF2F198E21B64D7400CF631E /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = LWCommonsSDK;
+			productName = LWCommonsSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		EF2F19C821B64DDA00CF631E /* UILabel+Attributes.h in Headers */ = {isa = PBXBuildFile; fileRef = EF2F199021B64DDA00CF631E /* UILabel+Attributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF2F19C921B64DDA00CF631E /* UIApplication+ActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2F199121B64DDA00CF631E /* UIApplication+ActivityViewController.m */; };
+		EF2F19CA21B64DDA00CF631E /* UINavigationBar+Bg.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2F199221B64DDA00CF631E /* UINavigationBar+Bg.m */; };
+		EF2F19CB21B64DDA00CF631E /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2F199321B64DDA00CF631E /* UIView+Frame.m */; };
+		EF2F19CC21B64DDA00CF631E /* NSString+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2F199421B64DDA00CF631E /* NSString+Utilities.m */; };
+		EF2F19CD21B64DDA00CF631E /* UIImage+TintColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2F199521B64DDA00CF631E /* UIImage+TintColor.m */; };
+		EF2F19CE21B64DDA00CF631E /* UITabBar+Badge.h in Headers */ = {isa = PBXBuildFile; fileRef = EF2F199621B64DDA00CF631E /* UITabBar+Badge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF2F19CF21B64DDA00CF631E /* UIApplication+ActivityViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = EF2F199721B64DDA00CF631E /* UIApplication+ActivityViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF2F19D021B64DDA00CF631E /* UILabel+Attributes.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2F199821B64DDA00CF631E /* UILabel+Attributes.m */; };
+		EF2F19D121B64DDA00CF631E /* UINavigationBar+Bg.h in Headers */ = {isa = PBXBuildFile; fileRef = EF2F199921B64DDA00CF631E /* UINavigationBar+Bg.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF2F19D221B64DDA00CF631E /* NSString+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = EF2F199A21B64DDA00CF631E /* NSString+Utilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF2F19D321B64DDA00CF631E /* UIImage+TintColor.h in Headers */ = {isa = PBXBuildFile; fileRef = EF2F199B21B64DDA00CF631E /* UIImage+TintColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF2F19D421B64DDA00CF631E /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = EF2F199C21B64DDA00CF631E /* UIView+Frame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF2F19D521B64DDA00CF631E /* UITabBar+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2F199D21B64DDA00CF631E /* UITabBar+Badge.m */; };
+		EF2F19E021B64DDA00CF631E /* LWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2F19AA21B64DDA00CF631E /* LWTableViewCell.m */; };
+		EF2F19E121B64DDA00CF631E /* LWPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = EF2F19AB21B64DDA00CF631E /* LWPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF2F19E221B64DDA00CF631E /* LWView.h in Headers */ = {isa = PBXBuildFile; fileRef = EF2F19AC21B64DDA00CF631E /* LWView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF2F19E321B64DDA00CF631E /* LWAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = EF2F19AD21B64DDA00CF631E /* LWAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF2F19E421B64DDA00CF631E /* LWLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2F19AE21B64DDA00CF631E /* LWLoadingView.m */; };
+		EF2F19E521B64DDA00CF631E /* LWViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = EF2F19AF21B64DDA00CF631E /* LWViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF2F19E621B64DDA00CF631E /* LWPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2F19B021B64DDA00CF631E /* LWPickerView.m */; };
+		EF2F19E721B64DDA00CF631E /* LWBadgeView.h in Headers */ = {isa = PBXBuildFile; fileRef = EF2F19B121B64DDA00CF631E /* LWBadgeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF2F19E821B64DDA00CF631E /* LWActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = EF2F19B221B64DDA00CF631E /* LWActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF2F19E921B64DDA00CF631E /* LWShakingView.h in Headers */ = {isa = PBXBuildFile; fileRef = EF2F19B321B64DDA00CF631E /* LWShakingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF2F19EA21B64DDA00CF631E /* LWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2F19B421B64DDA00CF631E /* LWNavigationController.m */; };
+		EF2F19EB21B64DDA00CF631E /* LWPopoverView.h in Headers */ = {isa = PBXBuildFile; fileRef = EF2F19B521B64DDA00CF631E /* LWPopoverView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF2F19EC21B64DDA00CF631E /* LWButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2F19B621B64DDA00CF631E /* LWButton.m */; };
+		EF2F19ED21B64DDA00CF631E /* LWRetryView.h in Headers */ = {isa = PBXBuildFile; fileRef = EF2F19B721B64DDA00CF631E /* LWRetryView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF2F19EE21B64DDA00CF631E /* LWScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2F19B821B64DDA00CF631E /* LWScrollView.m */; };
+		EF2F19EF21B64DDA00CF631E /* LWTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = EF2F19B921B64DDA00CF631E /* LWTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF2F19F021B64DDA00CF631E /* LWAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2F19BA21B64DDA00CF631E /* LWAlert.m */; };
+		EF2F19F121B64DDA00CF631E /* LWView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2F19BB21B64DDA00CF631E /* LWView.m */; };
+		EF2F19F221B64DDA00CF631E /* LWPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2F19BC21B64DDA00CF631E /* LWPageControl.m */; };
+		EF2F19F321B64DDA00CF631E /* LWActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2F19BD21B64DDA00CF631E /* LWActionSheet.m */; };
+		EF2F19F421B64DDA00CF631E /* LWBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2F19BE21B64DDA00CF631E /* LWBadgeView.m */; };
+		EF2F19F521B64DDA00CF631E /* LWPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = EF2F19BF21B64DDA00CF631E /* LWPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF2F19F621B64DDA00CF631E /* LWLoadingView.h in Headers */ = {isa = PBXBuildFile; fileRef = EF2F19C021B64DDA00CF631E /* LWLoadingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF2F19F721B64DDA00CF631E /* LWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2F19C121B64DDA00CF631E /* LWViewController.m */; };
+		EF2F19F821B64DDA00CF631E /* LWRetryView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2F19C221B64DDA00CF631E /* LWRetryView.m */; };
+		EF2F19F921B64DDA00CF631E /* LWScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = EF2F19C321B64DDA00CF631E /* LWScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF2F19FA21B64DDA00CF631E /* LWButton.h in Headers */ = {isa = PBXBuildFile; fileRef = EF2F19C421B64DDA00CF631E /* LWButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF2F19FB21B64DDA00CF631E /* LWPopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2F19C521B64DDA00CF631E /* LWPopoverView.m */; };
+		EF2F19FC21B64DDA00CF631E /* LWNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = EF2F19C621B64DDA00CF631E /* LWNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF2F19FD21B64DDA00CF631E /* LWShakingView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2F19C721B64DDA00CF631E /* LWShakingView.m */; };
+		EF2F1A0921B6520E00CF631E /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2F1A0121B6520E00CF631E /* MBProgressHUD.m */; };
+		EF2F1A0A21B6520E00CF631E /* LWDeviceUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = EF2F1A0221B6520E00CF631E /* LWDeviceUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF2F1A0B21B6520E00CF631E /* SDiOSVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = EF2F1A0321B6520E00CF631E /* SDiOSVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF2F1A0C21B6520E00CF631E /* LWLocalSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = EF2F1A0421B6520E00CF631E /* LWLocalSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF2F1A0D21B6520E00CF631E /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = EF2F1A0521B6520E00CF631E /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF2F1A0E21B6520E00CF631E /* LWDeviceUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2F1A0621B6520E00CF631E /* LWDeviceUtilities.m */; };
+		EF2F1A0F21B6520E00CF631E /* LWLocalSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2F1A0721B6520E00CF631E /* LWLocalSettings.m */; };
+		EF2F1A1021B6520E00CF631E /* SDiOSVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2F1A0821B6520E00CF631E /* SDiOSVersion.m */; };
+		EF2F1A1321B6521A00CF631E /* Commons.h in Headers */ = {isa = PBXBuildFile; fileRef = EF2F1A1121B6521A00CF631E /* Commons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF2F1A1421B6521A00CF631E /* Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = EF2F1A1221B6521A00CF631E /* Constants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF3259BC21B6491600462696 /* LWCommons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF3259B221B6491600462696 /* LWCommons.framework */; };
+		EF3259C121B6491600462696 /* LWCommonsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3259C021B6491600462696 /* LWCommonsTests.m */; };
+		EF3259C321B6491600462696 /* LWCommons.h in Headers */ = {isa = PBXBuildFile; fileRef = EF3259B521B6491600462696 /* LWCommons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF3259BD21B6491600462696 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF3259A921B6491600462696 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF3259B121B6491600462696;
+			remoteInfo = LWCommons;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF2F199021B64DDA00CF631E /* UILabel+Attributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Attributes.h"; sourceTree = "<group>"; };
+		EF2F199121B64DDA00CF631E /* UIApplication+ActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+ActivityViewController.m"; sourceTree = "<group>"; };
+		EF2F199221B64DDA00CF631E /* UINavigationBar+Bg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Bg.m"; sourceTree = "<group>"; };
+		EF2F199321B64DDA00CF631E /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		EF2F199421B64DDA00CF631E /* NSString+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utilities.m"; sourceTree = "<group>"; };
+		EF2F199521B64DDA00CF631E /* UIImage+TintColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TintColor.m"; sourceTree = "<group>"; };
+		EF2F199621B64DDA00CF631E /* UITabBar+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+Badge.h"; sourceTree = "<group>"; };
+		EF2F199721B64DDA00CF631E /* UIApplication+ActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+ActivityViewController.h"; sourceTree = "<group>"; };
+		EF2F199821B64DDA00CF631E /* UILabel+Attributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Attributes.m"; sourceTree = "<group>"; };
+		EF2F199921B64DDA00CF631E /* UINavigationBar+Bg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Bg.h"; sourceTree = "<group>"; };
+		EF2F199A21B64DDA00CF631E /* NSString+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utilities.h"; sourceTree = "<group>"; };
+		EF2F199B21B64DDA00CF631E /* UIImage+TintColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TintColor.h"; sourceTree = "<group>"; };
+		EF2F199C21B64DDA00CF631E /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		EF2F199D21B64DDA00CF631E /* UITabBar+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+Badge.m"; sourceTree = "<group>"; };
+		EF2F19AA21B64DDA00CF631E /* LWTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWTableViewCell.m; sourceTree = "<group>"; };
+		EF2F19AB21B64DDA00CF631E /* LWPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWPageControl.h; sourceTree = "<group>"; };
+		EF2F19AC21B64DDA00CF631E /* LWView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWView.h; sourceTree = "<group>"; };
+		EF2F19AD21B64DDA00CF631E /* LWAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAlert.h; sourceTree = "<group>"; };
+		EF2F19AE21B64DDA00CF631E /* LWLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWLoadingView.m; sourceTree = "<group>"; };
+		EF2F19AF21B64DDA00CF631E /* LWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWViewController.h; sourceTree = "<group>"; };
+		EF2F19B021B64DDA00CF631E /* LWPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWPickerView.m; sourceTree = "<group>"; };
+		EF2F19B121B64DDA00CF631E /* LWBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWBadgeView.h; sourceTree = "<group>"; };
+		EF2F19B221B64DDA00CF631E /* LWActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWActionSheet.h; sourceTree = "<group>"; };
+		EF2F19B321B64DDA00CF631E /* LWShakingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWShakingView.h; sourceTree = "<group>"; };
+		EF2F19B421B64DDA00CF631E /* LWNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWNavigationController.m; sourceTree = "<group>"; };
+		EF2F19B521B64DDA00CF631E /* LWPopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWPopoverView.h; sourceTree = "<group>"; };
+		EF2F19B621B64DDA00CF631E /* LWButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWButton.m; sourceTree = "<group>"; };
+		EF2F19B721B64DDA00CF631E /* LWRetryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWRetryView.h; sourceTree = "<group>"; };
+		EF2F19B821B64DDA00CF631E /* LWScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWScrollView.m; sourceTree = "<group>"; };
+		EF2F19B921B64DDA00CF631E /* LWTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWTableViewCell.h; sourceTree = "<group>"; };
+		EF2F19BA21B64DDA00CF631E /* LWAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAlert.m; sourceTree = "<group>"; };
+		EF2F19BB21B64DDA00CF631E /* LWView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWView.m; sourceTree = "<group>"; };
+		EF2F19BC21B64DDA00CF631E /* LWPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWPageControl.m; sourceTree = "<group>"; };
+		EF2F19BD21B64DDA00CF631E /* LWActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWActionSheet.m; sourceTree = "<group>"; };
+		EF2F19BE21B64DDA00CF631E /* LWBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWBadgeView.m; sourceTree = "<group>"; };
+		EF2F19BF21B64DDA00CF631E /* LWPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWPickerView.h; sourceTree = "<group>"; };
+		EF2F19C021B64DDA00CF631E /* LWLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWLoadingView.h; sourceTree = "<group>"; };
+		EF2F19C121B64DDA00CF631E /* LWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWViewController.m; sourceTree = "<group>"; };
+		EF2F19C221B64DDA00CF631E /* LWRetryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWRetryView.m; sourceTree = "<group>"; };
+		EF2F19C321B64DDA00CF631E /* LWScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWScrollView.h; sourceTree = "<group>"; };
+		EF2F19C421B64DDA00CF631E /* LWButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWButton.h; sourceTree = "<group>"; };
+		EF2F19C521B64DDA00CF631E /* LWPopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWPopoverView.m; sourceTree = "<group>"; };
+		EF2F19C621B64DDA00CF631E /* LWNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWNavigationController.h; sourceTree = "<group>"; };
+		EF2F19C721B64DDA00CF631E /* LWShakingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWShakingView.m; sourceTree = "<group>"; };
+		EF2F1A0121B6520E00CF631E /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		EF2F1A0221B6520E00CF631E /* LWDeviceUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWDeviceUtilities.h; sourceTree = "<group>"; };
+		EF2F1A0321B6520E00CF631E /* SDiOSVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDiOSVersion.h; sourceTree = "<group>"; };
+		EF2F1A0421B6520E00CF631E /* LWLocalSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWLocalSettings.h; sourceTree = "<group>"; };
+		EF2F1A0521B6520E00CF631E /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		EF2F1A0621B6520E00CF631E /* LWDeviceUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWDeviceUtilities.m; sourceTree = "<group>"; };
+		EF2F1A0721B6520E00CF631E /* LWLocalSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWLocalSettings.m; sourceTree = "<group>"; };
+		EF2F1A0821B6520E00CF631E /* SDiOSVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDiOSVersion.m; sourceTree = "<group>"; };
+		EF2F1A1121B6521A00CF631E /* Commons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Commons.h; sourceTree = "<group>"; };
+		EF2F1A1221B6521A00CF631E /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		EF3259B221B6491600462696 /* LWCommons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LWCommons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF3259B521B6491600462696 /* LWCommons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWCommons.h; sourceTree = "<group>"; };
+		EF3259B621B6491600462696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF3259BB21B6491600462696 /* LWCommonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LWCommonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF3259C021B6491600462696 /* LWCommonsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWCommonsTests.m; sourceTree = "<group>"; };
+		EF3259C221B6491600462696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF3259AE21B6491600462696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3259B821B6491600462696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3259BC21B6491600462696 /* LWCommons.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF2F198F21B64DDA00CF631E /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				EF2F199021B64DDA00CF631E /* UILabel+Attributes.h */,
+				EF2F199121B64DDA00CF631E /* UIApplication+ActivityViewController.m */,
+				EF2F199221B64DDA00CF631E /* UINavigationBar+Bg.m */,
+				EF2F199321B64DDA00CF631E /* UIView+Frame.m */,
+				EF2F199421B64DDA00CF631E /* NSString+Utilities.m */,
+				EF2F199521B64DDA00CF631E /* UIImage+TintColor.m */,
+				EF2F199621B64DDA00CF631E /* UITabBar+Badge.h */,
+				EF2F199721B64DDA00CF631E /* UIApplication+ActivityViewController.h */,
+				EF2F199821B64DDA00CF631E /* UILabel+Attributes.m */,
+				EF2F199921B64DDA00CF631E /* UINavigationBar+Bg.h */,
+				EF2F199A21B64DDA00CF631E /* NSString+Utilities.h */,
+				EF2F199B21B64DDA00CF631E /* UIImage+TintColor.h */,
+				EF2F199C21B64DDA00CF631E /* UIView+Frame.h */,
+				EF2F199D21B64DDA00CF631E /* UITabBar+Badge.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		EF2F19A921B64DDA00CF631E /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				EF2F19AA21B64DDA00CF631E /* LWTableViewCell.m */,
+				EF2F19AB21B64DDA00CF631E /* LWPageControl.h */,
+				EF2F19AC21B64DDA00CF631E /* LWView.h */,
+				EF2F19AD21B64DDA00CF631E /* LWAlert.h */,
+				EF2F19AE21B64DDA00CF631E /* LWLoadingView.m */,
+				EF2F19AF21B64DDA00CF631E /* LWViewController.h */,
+				EF2F19B021B64DDA00CF631E /* LWPickerView.m */,
+				EF2F19B121B64DDA00CF631E /* LWBadgeView.h */,
+				EF2F19B221B64DDA00CF631E /* LWActionSheet.h */,
+				EF2F19B321B64DDA00CF631E /* LWShakingView.h */,
+				EF2F19B421B64DDA00CF631E /* LWNavigationController.m */,
+				EF2F19B521B64DDA00CF631E /* LWPopoverView.h */,
+				EF2F19B621B64DDA00CF631E /* LWButton.m */,
+				EF2F19B721B64DDA00CF631E /* LWRetryView.h */,
+				EF2F19B821B64DDA00CF631E /* LWScrollView.m */,
+				EF2F19B921B64DDA00CF631E /* LWTableViewCell.h */,
+				EF2F19BA21B64DDA00CF631E /* LWAlert.m */,
+				EF2F19BB21B64DDA00CF631E /* LWView.m */,
+				EF2F19BC21B64DDA00CF631E /* LWPageControl.m */,
+				EF2F19BD21B64DDA00CF631E /* LWActionSheet.m */,
+				EF2F19BE21B64DDA00CF631E /* LWBadgeView.m */,
+				EF2F19BF21B64DDA00CF631E /* LWPickerView.h */,
+				EF2F19C021B64DDA00CF631E /* LWLoadingView.h */,
+				EF2F19C121B64DDA00CF631E /* LWViewController.m */,
+				EF2F19C221B64DDA00CF631E /* LWRetryView.m */,
+				EF2F19C321B64DDA00CF631E /* LWScrollView.h */,
+				EF2F19C421B64DDA00CF631E /* LWButton.h */,
+				EF2F19C521B64DDA00CF631E /* LWPopoverView.m */,
+				EF2F19C621B64DDA00CF631E /* LWNavigationController.h */,
+				EF2F19C721B64DDA00CF631E /* LWShakingView.m */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		EF2F1A0021B6520E00CF631E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				EF2F1A0121B6520E00CF631E /* MBProgressHUD.m */,
+				EF2F1A0221B6520E00CF631E /* LWDeviceUtilities.h */,
+				EF2F1A0321B6520E00CF631E /* SDiOSVersion.h */,
+				EF2F1A0421B6520E00CF631E /* LWLocalSettings.h */,
+				EF2F1A0521B6520E00CF631E /* MBProgressHUD.h */,
+				EF2F1A0621B6520E00CF631E /* LWDeviceUtilities.m */,
+				EF2F1A0721B6520E00CF631E /* LWLocalSettings.m */,
+				EF2F1A0821B6520E00CF631E /* SDiOSVersion.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		EF3259A821B6491600462696 = {
+			isa = PBXGroup;
+			children = (
+				EF3259B421B6491600462696 /* LWCommons */,
+				EF3259BF21B6491600462696 /* LWCommonsTests */,
+				EF3259B321B6491600462696 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF3259B321B6491600462696 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF3259B221B6491600462696 /* LWCommons.framework */,
+				EF3259BB21B6491600462696 /* LWCommonsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF3259B421B6491600462696 /* LWCommons */ = {
+			isa = PBXGroup;
+			children = (
+				EF2F1A1121B6521A00CF631E /* Commons.h */,
+				EF2F1A1221B6521A00CF631E /* Constants.h */,
+				EF2F1A0021B6520E00CF631E /* Utilities */,
+				EF2F198F21B64DDA00CF631E /* Categories */,
+				EF2F19A921B64DDA00CF631E /* Widgets */,
+				EF3259B521B6491600462696 /* LWCommons.h */,
+				EF3259B621B6491600462696 /* Info.plist */,
+			);
+			path = LWCommons;
+			sourceTree = "<group>";
+		};
+		EF3259BF21B6491600462696 /* LWCommonsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF3259C021B6491600462696 /* LWCommonsTests.m */,
+				EF3259C221B6491600462696 /* Info.plist */,
+			);
+			path = LWCommonsTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EF3259AF21B6491600462696 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2F19E921B64DDA00CF631E /* LWShakingView.h in Headers */,
+				EF2F19F921B64DDA00CF631E /* LWScrollView.h in Headers */,
+				EF2F19E121B64DDA00CF631E /* LWPageControl.h in Headers */,
+				EF2F19F521B64DDA00CF631E /* LWPickerView.h in Headers */,
+				EF2F19CE21B64DDA00CF631E /* UITabBar+Badge.h in Headers */,
+				EF2F19FC21B64DDA00CF631E /* LWNavigationController.h in Headers */,
+				EF2F19EF21B64DDA00CF631E /* LWTableViewCell.h in Headers */,
+				EF2F19E521B64DDA00CF631E /* LWViewController.h in Headers */,
+				EF2F19FA21B64DDA00CF631E /* LWButton.h in Headers */,
+				EF2F19D221B64DDA00CF631E /* NSString+Utilities.h in Headers */,
+				EF2F19CF21B64DDA00CF631E /* UIApplication+ActivityViewController.h in Headers */,
+				EF2F19E721B64DDA00CF631E /* LWBadgeView.h in Headers */,
+				EF2F19E321B64DDA00CF631E /* LWAlert.h in Headers */,
+				EF2F19EB21B64DDA00CF631E /* LWPopoverView.h in Headers */,
+				EF2F19D421B64DDA00CF631E /* UIView+Frame.h in Headers */,
+				EF2F19D321B64DDA00CF631E /* UIImage+TintColor.h in Headers */,
+				EF2F19ED21B64DDA00CF631E /* LWRetryView.h in Headers */,
+				EF2F19E821B64DDA00CF631E /* LWActionSheet.h in Headers */,
+				EF2F1A0C21B6520E00CF631E /* LWLocalSettings.h in Headers */,
+				EF2F1A1421B6521A00CF631E /* Constants.h in Headers */,
+				EF2F1A0D21B6520E00CF631E /* MBProgressHUD.h in Headers */,
+				EF2F1A1321B6521A00CF631E /* Commons.h in Headers */,
+				EF2F1A0A21B6520E00CF631E /* LWDeviceUtilities.h in Headers */,
+				EF2F1A0B21B6520E00CF631E /* SDiOSVersion.h in Headers */,
+				EF2F19E221B64DDA00CF631E /* LWView.h in Headers */,
+				EF2F19C821B64DDA00CF631E /* UILabel+Attributes.h in Headers */,
+				EF2F19D121B64DDA00CF631E /* UINavigationBar+Bg.h in Headers */,
+				EF2F19F621B64DDA00CF631E /* LWLoadingView.h in Headers */,
+				EF3259C321B6491600462696 /* LWCommons.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EF3259B121B6491600462696 /* LWCommons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF3259C621B6491600462696 /* Build configuration list for PBXNativeTarget "LWCommons" */;
+			buildPhases = (
+				EF3259AD21B6491600462696 /* Sources */,
+				EF3259AE21B6491600462696 /* Frameworks */,
+				EF3259AF21B6491600462696 /* Headers */,
+				EF3259B021B6491600462696 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LWCommons;
+			productName = LWCommons;
+			productReference = EF3259B221B6491600462696 /* LWCommons.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF3259BA21B6491600462696 /* LWCommonsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF3259C921B6491600462696 /* Build configuration list for PBXNativeTarget "LWCommonsTests" */;
+			buildPhases = (
+				EF3259B721B6491600462696 /* Sources */,
+				EF3259B821B6491600462696 /* Frameworks */,
+				EF3259B921B6491600462696 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF3259BE21B6491600462696 /* PBXTargetDependency */,
+			);
+			name = LWCommonsTests;
+			productName = LWCommonsTests;
+			productReference = EF3259BB21B6491600462696 /* LWCommonsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF3259A921B6491600462696 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = wangliang;
+				TargetAttributes = {
+					EF1992E621B64A6C000F7AD1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					EF3259B121B6491600462696 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					EF3259BA21B6491600462696 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EF3259AC21B6491600462696 /* Build configuration list for PBXProject "LWCommons" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EF3259A821B6491600462696;
+			productRefGroup = EF3259B321B6491600462696 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF3259B121B6491600462696 /* LWCommons */,
+				EF3259BA21B6491600462696 /* LWCommonsTests */,
+				EF1992E621B64A6C000F7AD1 /* LWCommonsSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF3259B021B6491600462696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3259B921B6491600462696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EF2F198E21B64D7400CF631E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Sets the target folders and the final framework product.\n# 如果工程名称和Framework的Target名称不一样的话，要自定义FMKNAME\n# 例如: FMK_NAME = \"MyFramework\"\nFMK_NAME=${PROJECT_NAME}\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nINSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\n# Working dir will be deleted after the framework creation.\nWRK_DIR=build\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n# -configuration ${CONFIGURATION}\n# Clean and Building both architectures.\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos clean build\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator clean build\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\nmkdir -p \"${INSTALL_DIR}\"\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/${FMK_NAME}\"\nrm -r \"${WRK_DIR}\"\nopen \"${INSTALL_DIR}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF3259AD21B6491600462696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2F19CB21B64DDA00CF631E /* UIView+Frame.m in Sources */,
+				EF2F1A1021B6520E00CF631E /* SDiOSVersion.m in Sources */,
+				EF2F19E621B64DDA00CF631E /* LWPickerView.m in Sources */,
+				EF2F1A0921B6520E00CF631E /* MBProgressHUD.m in Sources */,
+				EF2F19EA21B64DDA00CF631E /* LWNavigationController.m in Sources */,
+				EF2F19FB21B64DDA00CF631E /* LWPopoverView.m in Sources */,
+				EF2F19F821B64DDA00CF631E /* LWRetryView.m in Sources */,
+				EF2F19EC21B64DDA00CF631E /* LWButton.m in Sources */,
+				EF2F1A0F21B6520E00CF631E /* LWLocalSettings.m in Sources */,
+				EF2F19E021B64DDA00CF631E /* LWTableViewCell.m in Sources */,
+				EF2F19CA21B64DDA00CF631E /* UINavigationBar+Bg.m in Sources */,
+				EF2F19F221B64DDA00CF631E /* LWPageControl.m in Sources */,
+				EF2F19CC21B64DDA00CF631E /* NSString+Utilities.m in Sources */,
+				EF2F19FD21B64DDA00CF631E /* LWShakingView.m in Sources */,
+				EF2F19F721B64DDA00CF631E /* LWViewController.m in Sources */,
+				EF2F1A0E21B6520E00CF631E /* LWDeviceUtilities.m in Sources */,
+				EF2F19E421B64DDA00CF631E /* LWLoadingView.m in Sources */,
+				EF2F19F021B64DDA00CF631E /* LWAlert.m in Sources */,
+				EF2F19C921B64DDA00CF631E /* UIApplication+ActivityViewController.m in Sources */,
+				EF2F19F121B64DDA00CF631E /* LWView.m in Sources */,
+				EF2F19F321B64DDA00CF631E /* LWActionSheet.m in Sources */,
+				EF2F19CD21B64DDA00CF631E /* UIImage+TintColor.m in Sources */,
+				EF2F19EE21B64DDA00CF631E /* LWScrollView.m in Sources */,
+				EF2F19F421B64DDA00CF631E /* LWBadgeView.m in Sources */,
+				EF2F19D021B64DDA00CF631E /* UILabel+Attributes.m in Sources */,
+				EF2F19D521B64DDA00CF631E /* UITabBar+Badge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3259B721B6491600462696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3259C121B6491600462696 /* LWCommonsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF3259BE21B6491600462696 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF3259B121B6491600462696 /* LWCommons */;
+			targetProxy = EF3259BD21B6491600462696 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EF1992E721B64A6C000F7AD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VUU2V3RVU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF1992E821B64A6C000F7AD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VUU2V3RVU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF3259C421B6491600462696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF3259C521B6491600462696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EF3259C721B6491600462696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6VUU2V3RVU;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LWCommons/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangliang.LWCommons;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF3259C821B6491600462696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6VUU2V3RVU;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LWCommons/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangliang.LWCommons;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF3259CA21B6491600462696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VUU2V3RVU;
+				INFOPLIST_FILE = LWCommonsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangliang.LWCommonsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF3259CB21B6491600462696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VUU2V3RVU;
+				INFOPLIST_FILE = LWCommonsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangliang.LWCommonsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF1992E921B64A6C000F7AD1 /* Build configuration list for PBXAggregateTarget "LWCommonsSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1992E721B64A6C000F7AD1 /* Debug */,
+				EF1992E821B64A6C000F7AD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF3259AC21B6491600462696 /* Build configuration list for PBXProject "LWCommons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3259C421B6491600462696 /* Debug */,
+				EF3259C521B6491600462696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF3259C621B6491600462696 /* Build configuration list for PBXNativeTarget "LWCommons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3259C721B6491600462696 /* Debug */,
+				EF3259C821B6491600462696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF3259C921B6491600462696 /* Build configuration list for PBXNativeTarget "LWCommonsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3259CA21B6491600462696 /* Debug */,
+				EF3259CB21B6491600462696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF3259A921B6491600462696 /* Project object */;
+}

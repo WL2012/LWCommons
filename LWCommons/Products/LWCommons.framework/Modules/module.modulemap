@@ -1,0 +1,6 @@
+framework module LWCommons {
+  umbrella header "LWCommons.h"
+
+  export *
+  module * { export * }
+}
