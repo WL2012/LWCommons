@@ -1,2 +1,2 @@
-# YYAlert
-Simple Alert for iOS app
+# LWCommons
+Simple initialize for iOS app
