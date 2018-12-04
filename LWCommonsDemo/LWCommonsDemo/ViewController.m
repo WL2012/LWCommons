@@ -21,6 +21,7 @@
     LWButton *btn = [[LWButton alloc] initWithFrame:CGRectMake(0, 200, 100, 30) andRadius:5];
     btn.backgroundColor = kRedColor;
     [self.view addSubview:btn];
+    [MBProgressHUD showHUDAddedTo:self.view animated:YES];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
